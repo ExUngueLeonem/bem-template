@@ -1,50 +1,54 @@
 body {
     margin: 0;
-    max-width: 1500px;
-    background-color: rgb(255, 220, 210);
+    
 }
 
 .header {
-    color: red;
+    display: flex;
+    
+    &__logo {
+    }
 
+    &__menu {
+    }
 }
-.header__logo {
-}
-.header__menu {
+.row {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 .menu {
-}
-.menu__item {
+
+    &__item {
+    }
 }
 .dark-container {
+    background-color: rgb(112, 112, 112);
 }
 .title-block {
 }
-.card-container {
-}
-.card__item {
-}
 .light-container {
 }
-.info-block {
+.card-container {
 }
-.info-block__left {
+.card {
+
+    &__item {
+    }
+}
+.info-block {
+
+    &__left {
+    }
+
+    &__mid {
+    }
+
+    &__right {
+    }
 }
 .description {
 }
-.info-block__mid {
-}
 .staff {
 }
-.info-block__right {
-}
 .navbar-container {
-}
-.mini-cards {
-}
-.mini-cards__item {
-}
-.footer-rom {
-}
-.footer-block__column {
 }

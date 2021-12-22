@@ -1,10 +1,19 @@
 body {
   margin: 0;
-  max-width: 1500px;
-  background-color: #ffdcd2;
 }
 
 .header {
-  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.dark-container {
+  background-color: #707070;
 }
 /*# sourceMappingURL=style.css.map */
