@@ -6,6 +6,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .row {
@@ -15,5 +28,9 @@ body {
 
 .dark-container {
   background-color: #707070;
+}
+
+.title-block {
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
